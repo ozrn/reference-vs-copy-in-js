@@ -9,6 +9,17 @@
 <body>
   <script>
     // start with strings, numbers and booleans
+    let age = 35;
+    let age2 = age;
+    console.log(age, age2);
+    age = 28;
+    console.log(age, age2);
+
+    let name = "JavaScript is fun";
+    let name2 = name;
+    console.log(name, name2);
+    name = "coding is";
+    console.log(name, name2);  //if you change the original one, it is not going to update the other one.
 
     // Let's say we have an array
     const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
